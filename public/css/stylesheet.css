@@ -1,0 +1,114 @@
+@import url(reset.css);
+
+body {
+    font: 13px/1.4 Arial, Tahoma, Verdana, sans-serif;
+    background: url("../img/main_bg.jpg");
+    color: #5e5e5e;
+}
+
+a {
+    text-decoration: none;
+    color: #5e5e5e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+#header, #wrapper {
+    min-width: 960px;
+    max-width: 1200px;
+    //border: 2px solid #ff0000;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#logo {
+    width: 241px;
+    height: 46px;
+    float: left;
+    margin-top: 44px;
+    margin-bottom: 42px;
+    margin-left: 10px;
+}
+
+#banner {
+    width: 468px;
+    height: 60px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+#top-menu {
+    height: 49px;
+    background: url("../img/top_menu_bg.png") repeat-x;
+}
+
+#inner-menu {
+    min-width: 960px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#inner-menu ul li {
+    float: left;
+    text-transform: uppercase;
+}
+
+#inner-menu a {
+    color: #ebebeb;
+    font-size: 12px;
+    padding: 16px 15px;
+    display: block;
+}
+
+#inner-menu a:hover {
+    background: url("../img/menu_hover.png") repeat-x;
+    text-decoration: none;
+}
+
+#sidebar {
+    width: 300px;
+    height: 400px;
+    //background: #b2b2b2;
+    float: right;
+    border: 2px solid darkred;
+}
+
+#content {
+    height: 400px;
+    //background: #50ff3d;
+    margin-right: 300px;
+    padding: 30px 38px 0 10px;
+}
+
+.thumbnail {
+    float: left;
+}
+
+.thumbnail img {
+    border: 3px solid #e0e0e0;
+}
+
+.post-categories, .post-published {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #aaa;
+}
+
+.post {
+    border-bottom: 1px dashed #e5e5e5;
+    overflow: hidden;
+}
+
+.post-content {
+    margin-left: 180px;
+}
